@@ -1,3 +1,5 @@
+USE db_class;
+
 INSERT INTO Enrollment (StudentID, CourseID, Enroll_Date)
 VALUES (1, 1, '2024-01-15');
 
