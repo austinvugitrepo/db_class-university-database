@@ -41,7 +41,7 @@ CREATE TABLE Student (
 CREATE TABLE Enrollment (
     StudentID INT,
     CourseID INT,
-    Enroll_Grade INT,
+    Enroll_Date DATE,
     PRIMARY KEY (StudentID, CourseID),
     FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
     FOREIGN KEY (CourseID) REFERENCES Course(CourseID)
